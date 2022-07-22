@@ -800,6 +800,7 @@ h3.my-profession {
     /* padding: 50px 50px; */
   }
   .home-img::after {
+    display:none;
     content: "";
     position: absolute;
     height: 80px;
@@ -810,6 +811,7 @@ h3.my-profession {
     border-right: 10px solid var(--skin-color);
   }
   .home-img::before {
+    display:none;
     content: "";
     position: absolute;
     height: 80px;
