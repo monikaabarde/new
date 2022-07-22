@@ -797,10 +797,10 @@ h3.my-profession {
   .home .home-img {
     margin: auto;
     margin-top: 100px;
-    /* padding: 50px 50px; */
+  
   }
   .home-img::after {
-    display:none;
+    display: none;
     content: "";
     position: absolute;
     height: 80px;
@@ -811,7 +811,7 @@ h3.my-profession {
     border-right: 10px solid var(--skin-color);
   }
   .home-img::before {
-    display:none;
+    display: none;
     content: "";
     position: absolute;
     height: 80px;
